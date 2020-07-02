@@ -1,0 +1,6 @@
+body:not(.rtl) .sidebar-group.mobile-open {
+   z-index: 1;
+}
+.sidebar-body .tab-pane, .sidebar-body .tab-content, .scrollbar-container, .sidebar-body .list-group{
+ height: 100%;
+}

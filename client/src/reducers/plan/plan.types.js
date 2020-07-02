@@ -1,0 +1,7 @@
+export const DidActionTypes = {
+  FETCH_PLANS_START: "FETCH_PLANS_START",
+  FETCH_PLANS_SUCCESS: "FETCH_PLANS_SUCCESS",
+  FETCH_PLANS_FAILURE: "FETCH_PLANS_FAILURE",
+};
+
+export default DidActionTypes;

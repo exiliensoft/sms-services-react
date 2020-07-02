@@ -1,0 +1,107 @@
+.plan-card:hover {
+    background-color: rgb(0, 204, 82);
+    color: #ffff;
+    cursor: pointer;
+    border-radius: 5%;
+    border: 0px;
+}
+
+.plan-card {
+    margin: .5em;
+    padding: .5em 0;
+    border: .5px solid lightgray;
+    border-radius: 5%;
+}
+
+.plan-card__header {
+    text-align: center;
+}
+
+/* .plan-card__list {
+    list-style: none;
+} */
+
+.plan-card__header {
+    font-size: 1.5rem;
+}
+
+.card_selected {
+    background-color: rgb(0, 204, 82);
+    color: #ffffff;
+    border: none;
+    border-radius: 5%;
+}
+
+.card_disabled {
+    background-color: #d1d1d1;
+    color: #ffffff;
+    border: none;
+    border-radius: 5%;
+    pointer-events: none;
+}
+
+
+.card_disabled:hover {
+    background-color: #d1d1d1;
+    color: #ffffff;
+    border: none;
+    border-radius: 5%;
+    pointer-events: none;
+}
+.div_disabled {
+    pointer-events: none;
+}
+
+
+body.rtl .sidebar-group .sidebar .list-group-item.open-tag:before {
+    left: auto;
+    right: 0;
+}
+
+body.rtl .sidebar-group .sidebar .list-group-item.close-chat:before {
+    left: auto;
+    right: 0;
+}
+
+.layout .content .sidebar-group .sidebar .list-group-item.open-tag:before {
+    opacity: 1;
+    background-color: #ede905;
+}
+.layout .content .sidebar-group .sidebar .list-group-item.close-chat:before {
+    opacity: 1;
+    background-color:red;
+}
+
+.layout .content .sidebar-group .sidebar .list-group-item.open-tag .users-list-body p {
+    font-weight: 600;
+}
+
+.layout .content .sidebar-group .sidebar .list-group-item.close-chat .users-list-body p {
+    font-weight: 600;
+}
+
+/* .plan-card__list li {
+    color: green;
+} */
+
+/* .plan-card__list li::before {
+    line-height: 1rem;
+    content: "\2611";
+    color: #4BD583;
+    font-weight: bold;
+    display: inline-block;
+    width: 1em;
+    margin-left: -1em;
+    font-size: 1.5rem;
+  } */
+
+  /* .plan-card__list:hover li::before {
+    line-height: 1rem;
+    content: "\2611";
+    color: #ffff;
+    font-weight: bold;
+    display: inline-block;
+    width: 1em;
+    margin-left: -1em;
+    font-size: 1.5rem;
+  } */

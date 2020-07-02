@@ -1,0 +1,24 @@
+.call {
+    color: #FFFFFF;
+ }
+ 
+ .call-background {
+    background: url(https://via.placeholder.com/150/330000/?text=Jennica%20Kindred%20calling%20...);
+    opacity: 1 !important;
+ }
+ 
+ @media (max-width: 575px) {
+    .modal {
+       height: 100vh;
+       overflow-y: scroll !important;
+       padding-bottom: 30px;
+    }
+ 
+    .modal-dialog {
+       width: 100vw;
+       height: 100vh;
+       margin: 0;
+       max-width: 100%;
+       padding: 30px;
+    }
+ }

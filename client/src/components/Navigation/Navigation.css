@@ -1,0 +1,39 @@
+.modal-dialog {
+    max-width: 800px;
+    /* width: 800px; */
+}
+
+.plans__header {
+    font-size: 1.1rem;
+}
+
+/* .card_selected {
+    background-color: blue;
+    border: none;
+    border-radius: 10px;
+} */
+
+.plans__header:not(:first-child) {
+    margin-top: 2rem;
+}
+
+
+.plan__section {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr;
+}
+.small-modal {
+    display: block; 
+    width: 500px; 
+    padding-left: 0px;
+}
+.large-modal {
+    display: block; 
+    width: 800px; 
+    padding-left: 0px;
+}
+
+/* .card {
+    margin: 10px;
+} */

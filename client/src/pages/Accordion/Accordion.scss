@@ -1,0 +1,41 @@
+.accordion {
+    margin: 0 auto;
+}
+
+.tab {
+    background-color: #3db16b;
+    padding: 10px;
+    color: #fefefe;
+    cursor: pointer;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 1px solid;
+}
+
+.tab:hover,
+.tab.active {
+    background-color: #026529;
+}
+
+.content {
+    background-color: #e5e5e5;
+    transition: all 0.5s ease-in-out;
+    height: 0;
+}
+
+.content p {
+    padding: 10px;
+    display: none;
+    margin-bottom: 0px;
+}
+
+.showContent {
+    height: auto;
+    transition: all 0.5s ease-in-out;
+}
+
+.content.showContent p {
+    display: block;
+    transition: all 0.5s ease-in-out;
+}

@@ -1,0 +1,20 @@
+module.exports = (app, diContainer) => {
+  diContainer.factory("authRoutes", require("./auth"));
+  app.use("/authorization", diContainer.get("authRoutes"));
+  diContainer.factory("conversationRoutes", require("./conversation"));
+  app.use("/conversation", diContainer.get("conversationRoutes"));
+  diContainer.factory("messageRoutes", require("./message"));
+  app.use("/message", diContainer.get("messageRoutes"));
+  diContainer.factory("didRoutes", require("./did"));
+  app.use("/did", diContainer.get("didRoutes"));
+  diContainer.factory("groupRoutes", require("./group"));
+  app.use("/group", diContainer.get("groupRoutes"));
+  diContainer.factory("userRoutes", require("./user"));
+  app.use("/user", diContainer.get("userRoutes"));
+  diContainer.factory("planRoutes", require("./plan"));
+  app.use("/plans", diContainer.get("planRoutes"));
+  diContainer.factory("contactRoutes", require("./contact"));
+  app.use("/contact", diContainer.get("contactRoutes"));
+  diContainer.factory("fieldRoutes", require("./field"));
+  app.use("/field", diContainer.get("fieldRoutes"));
+};

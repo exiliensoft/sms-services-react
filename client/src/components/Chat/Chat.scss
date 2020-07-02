@@ -1,0 +1,19 @@
+.dropdown-toggle::after {
+   display: none;
+}
+
+.dropdown-menu {
+   position: absolute;
+   will-change: transform;
+   top: 0px;
+   left: 0px;
+   transform: translate3d(-110px, 36px, 0px) !important;
+}
+
+.internal {
+   background-color: #ede905 !important;
+}
+
+input[type="file"] {
+   display: none;
+}
